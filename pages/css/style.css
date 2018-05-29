@@ -43,6 +43,16 @@ img {
     background: white;
     padding: 30px;
     position: relative;
+}
+
+.styleguide{
+        width: 100%;
+        max-width: 1000px;
+        margin: 0 auto;
+        background: white;
+        padding: 30px;
+        position: relative;
+        color: #54bed8; 
         
 }
 .font1{
@@ -94,8 +104,11 @@ img {
     float: left;
     margin-right: 5px;
     transition: all 0.3s ease;
-    border: 2px solid #54bed8;
+   gi
 
+}
+.button:hover{
+    background: #fc3b00;
 }
 input{
     width: 500px;
@@ -103,7 +116,24 @@ input{
     border: 3px solid #54bed8;
     margin-bottom: 10px;
     padding-left: 20px;
+
+        
 }
+inputmeerinfo{
+    width: 300px;
+    height: 40px;
+    border: 3px solid #54bed8;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    color: black;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 50px 0 50px 140px;
+    border-color: transparent transparent transparent #54bed8;
+
+}
+
 .surroundbar{
     width: 500px;
     background: #EFD23D;
