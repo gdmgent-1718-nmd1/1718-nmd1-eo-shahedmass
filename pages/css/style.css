@@ -104,11 +104,10 @@ img {
     float: left;
     margin-right: 5px;
     transition: all 0.3s ease;
-   gi
 
 }
 .button:hover{
-    background: #fc3b00;
+    background: rgb(237,109,95);
 }
 input{
     width: 500px;
@@ -134,11 +133,7 @@ inputmeerinfo{
 
 }
 
-.surroundbar{
-    width: 500px;
-    background: #EFD23D;
-    height: 40px;
-}
+
 .innerbar{
     width: 100px;
     padding-top:7px;
